@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+.home_page_container{
+    background-image: url('https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412561/E-commerce%20landing%20page/header/header-image_3x.jpg');
+      background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* opacity: .9; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+    background-color: rgba(255, 255, 0, 0.1);
+}
+.video_play {
+    /* opacity: 1;   */
+    /* background-image: url('https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412561/E-commerce%20landing%20page/header/header-image_3x.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    width: 700px; */
+    
+  
+    /* overflow: hidden; */
+    margin-top:0%;
+    height: 90vh;
+
+  }
+  .video_play video{
+    border: 7px solid wheat;
+    border-bottom: 7px solid wheat;
+    border-radius: 5px;
+    height: 90vh;
+
+  }
+  .home_section{
+    display: flex;
+    background-color: blue;
+  }
+  .img_text, .text{
+    width: 50%;
+    height: 40vh;
+  }
+.home_text_content{
+  
+    margin-top: 0%;
+    flex: 1;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   background-color: rgba(255, 255, 0, 0.1);
+
+}
+.home_text_content div{
+    margin-top: 20%;
+}
+/* .home_text_content h1{
+    font-family: 'Dancing Script', cursive;
+} */
+.page_text h1{
+    font-family: 'Dancing Script';
+    font-size: 90px;
+}
+.page_text p{
+    font: 28px "Raleway", sans-serif;
+	font-weight: 300;
+}
+.page_text button{
+    padding: 10px 30px;
+    font: 28px "Raleway", sans-serif;
+    border-radius: 10px;
+    border: 1px solid rgb(108, 199, 59);
+    background-color: rgba(189, 237, 184, 0.6);
+    color: white;
+    cursor: pointer;
+    
+}
+.page_text button:hover{
+    background-color: green;
+}

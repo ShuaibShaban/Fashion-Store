@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "reviews": [
+        {
+          "id": 1,
+          "product_id": 1,
+          "rating": 4,
+          "date": "2022-01-01"
+        },
+        {
+          "id": 2,
+          "product_id": 2,
+          "rating": 5,
+          "date": "2022-01-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "reviews": [
+        {
+          "id": 3,
+          "product_id": 1,
+          "rating": 3,
+          "date": "2022-01-05"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "reviews": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "rating": 4,
+          "date": "2022-01-01"
+        },
+        {
+          "id": 3,
+          "user_id": 2,
+          "rating": 3,
+          "date": "2022-01-05"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "reviews": [
+        {
+          "id": 2,
+          "user_id": 1,
+          "rating": 5,
+          "date": "2022-01-15"
+        }
+      ]
+    }
+  ]
+}

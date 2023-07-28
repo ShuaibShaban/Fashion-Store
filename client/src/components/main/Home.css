@@ -1,0 +1,141 @@
+/* * {
+  margin: 0%;
+  background-color: #5A5A5A;
+
+} */
+
+/* glitch text styling */
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+
+.hero {
+  font-size: calc(0px + 7vh);
+  line-height: calc(20px +40vh);
+  text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff,
+    0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 10px #ffffff, 0 0 98px #ffffff;
+  color: #ffffff;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  margin-right: 780px;
+  margin-top: 100px;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+body {
+  padding: 2vw;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 10px #ffffff, 0 0 98px #ffffff;
+    color: #ffffff;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 10px #ffffff, 0 0 98px #ffffff;
+    color: #ffffff;
+  }
+}
+
+
+.btnnn {
+  margin-left: 200px;
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 150px;
+}
+
+.btnnn:hover {
+  /* background-color: white; */
+  color: orange;
+  border: 2px solid orange;
+}
+
+.gify {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  color: white;
+  float: right;
+  margin-top: -15%;
+  margin-right: 6%;
+}
+
+.gify video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  color: white;
+}
+
+.img {
+  margin-top: 160px;
+  height: 200%;
+  width: 20%;
+  float: left;
+  margin-left: 55%;
+}
+
+.imgg {
+  height: 40%;
+  border-radius: 60px;
+  float: left;
+  margin-left: 45%;
+}
+
+@media only screen and (max-width: 1440px) {
+  /* styles for Samsung Galaxy S23 */
+  .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  .hero {
+    font-size: 2rem;
+  }
+  .btnnn {
+    font-size: 1.2rem;
+  }
+  .imgg {
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+.error_error{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.error_error span:hover{
+    cursor: pointer;
+    color: rgb(71, 71, 241);
+}

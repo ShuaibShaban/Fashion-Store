@@ -1,0 +1,150 @@
+
+/* .body{
+  background-color: white;
+} */
+
+.signup {
+  
+  height: 550px;
+  border-radius: 70px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login {
+  background-color: white;
+  float: right;
+  margin-right: 10%;
+  padding: 60px;
+}
+
+.sign-In {
+  float: left;
+  margin-top: 3%;
+  margin-left: 4%;
+  background-color: white;
+  padding: 60px;
+}
+.sign-In  p{
+  margin-top: 20px;
+  color: red;
+  font-size: large;
+}
+
+/* Define variables to be used later */
+:root {
+  --sub-color: grey;
+  --main-color: black;
+}
+
+/* Styling for label elements */
+.signup label {
+  color: black;
+  font-size: 16px;
+  font-weight:bolder;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: -10px;
+  transition: 300ms ease all;
+}
+
+/* Styling for labels that have been "shrunk" */
+.signup label.shrink {
+  top: -14px;
+  font-size: 12px;
+  color: black;
+}
+
+/* Styling for input elements */
+.signup input {
+  background: none;
+  background-color: white;
+  color: var(--sub-color);
+  font-size: 18px;
+  padding: 20px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--sub-color);
+  margin: 25px 0;
+  
+}
+
+/* Styling for focused input elements */
+.signup input:focus {
+  outline: none;
+}
+
+/* Styling for labels that come after focused input elements */
+.signup input:focus ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: var(--main-color);
+}
+
+/* Styling for input elements of type "password" */
+.signup input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+/* Styling for groups of input elements */
+.signup .group {
+  position: relative;
+  margin: 45px 0;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: -15%;
+  margin-left: 10px;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  /* background-color: white; */
+  color: white;
+  border: 2px solid white;
+}
+
+.btnn {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+}
+.btnn:hover {
+  /* background-color: white; */
+  color: white;
+  border: 2px solid white;
+}
+.bt {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+}
+.bt:hover {
+  /* background-color: white; */
+  color: white;
+  border: 2px solid white;
+}
+
+.form-group input:focus {
+  margin-top: -10px;
+}

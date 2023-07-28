@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "name": "Writing",
+      "description": "jjkbwwj",
+      "price": "6",
+      "id": 2,
+      "quantity": 1
+    },
+    {
+      "name": "w",
+      "description": "w",
+      "price": "3",
+      "id": 3,
+      "quantity": 1
+    },
+    {
+      "name": "jbby",
+      "description": "hby",
+      "price": "778",
+      "id": 4,
+      "quantity": 1
+    }
+  ],
+  "users": [
+    {
+      "name": "Emmanuel Barsulai",
+      "email": "woman@woman.com",
+      "password": "welcome12",
+      "id": 1
+    },
+    {
+      "name": "Writing",
+      "email": "woman@woman.com",
+      "password": "w",
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "status": "processing",
+      "product_id": 456,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "status": "processing",
+      "product_id": 1,
+      "quantity": 5
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 1,
+      "rating": 4,
+      "date": "2022-01-01"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "user_id": 1,
+      "rating": 5,
+      "date": "2022-01-15"
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "user_id": 2,
+      "rating": 3,
+      "date": "2022-01-05"
+    }
+  ]
+}
